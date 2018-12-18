@@ -1,9 +1,9 @@
 public class SomeConsumer {
- private final Foo foo;
- public SomeConsumer(Foo foo) {
+ private final Bar foo;
+ public SomeConsumer(Bar foo) {
  this.foo = foo;
  }
- public Foo getFoo() {
+ public Bar getFoo() {
  return this.foo;
  }
 }
